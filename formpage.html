@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentorship Agreement form</title>
+    <link rel="stylesheet" href="./formpage.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="logo" src="Untitled design (1).png" alt="logo">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Blueprint.html">Blueprint 1.0 </a></li>
+          <li><a href="terms.html">Terms of service</a></li>
+          <li><a href="formpage.html">Aggrement form</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>    
+
+    <div class="container">
+        <h1>Mentorship Agreement</h1>
+        <form action="" id="contactForm">
+            <div class="alert">Your message sent</div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your name...." />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email....." />
+            </div>
+
+            <div class="inputBox">
+              <input type="text" id="address" placeholder="Your Address....." />
+            </div>
+
+            <div class="inputBox">
+            <input type="text" id="country" placeholder="Your Country....." />
+            </div>
+
+            <div class="inputBox">
+              <input type="text" id="job" placeholder="Your Job....." />
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="investment" placeholder="Amount you're willing to invest....." />
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="hours" placeholder="Hours you're willing to put in....." />
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="income" placeholder="Income you aim to achieve....." />
+            </div>
+
+            <div class="inputBox">
+                <input type="checkbox" id="consent" required> I agree to follow all guidance from the mentor.
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+</body>
+
+</html>
